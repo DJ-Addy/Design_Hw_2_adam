@@ -11,6 +11,7 @@ public class problemTwo {
         meteors.add(new Meteor(10000, 12000));
         meteors.add(new Meteor(20000, 2000000));
         meteors.add(new Meteor(15000, 8000));
+        meteors.add(new Meteor(12000, 0));
 
         // Output the meteors in the correct order
         while (!meteors.isEmpty()) {
